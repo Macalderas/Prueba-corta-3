@@ -1,0 +1,69 @@
+*h1{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: monospace;
+}
+
+.pantalla{
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+.texto{
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+  
+  }
+
+  .pantalla3{
+    margin-left: 11rem ;
+  }   
+
+  .pantalla3 {
+    font-size: 1rem;
+     margin: auto;
+     background-color: gray;
+    color: black;
+    
+    }
+    .texto p{
+      padding: 2rem;
+      font-size: 1rem; 
+      margin: auto;
+    
+    }
+
+    @media only screen and (min-width: 120px){}
+   
+    .pantalla{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin: 10rem auto ;
+      }
+
+      .pantalla { 
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 55% 1fr;
+
+     }
+
+     .pantalla3{
+      grid-column: 1/3;
+      grid-row: 1/2;
+   }
+
+
+    
